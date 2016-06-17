@@ -1,0 +1,28 @@
+---
+title: Austin TX Front End Developer Guillermo Hernandez Jr
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+permalink: pretty
+tagline: Front End Developer for hire
+url: guillermohernandez.github.io
+paginate: 1
+baseurl: 
+sass:
+  sass_dir: _sass
+  style: compressed
+author:
+  name: Guillermo Hernandez
+  url: http://memohernandez.com
+  email: guillermohernandez@gmail.com
+version: 2.0.0
+github:
+  repo: https://github.com/guillermohernandez/guillermohernandez.github.io
+gems:
+- jekyll-paginate
+- jekyll-gist
