@@ -1,17 +1,18 @@
 ---
 title: Tribute page for Free Code Camp
-date: 2016-03-19T17:17:18+00:00
-layout: post
+date: 2016-03-19 12:17:18 -05:00
 tags:
-  - bootstrap
-  - css
-  - fontawesome
-  - freecodecamp
-  - html
-  - sxsw
-  - tribute
-  - Twitter Bootstrap
+- bootstrap
+- css
+- fontawesome
+- freecodecamp
+- html
+- sxsw
+- tribute
+- Twitter Bootstrap
+layout: post
 ---
+
 It&#8217;s been a while since I&#8217;ve completed a side project, so this afternoon in the middle of the SXSW madness, I finished one of the new challenges for Free Code Camp.
 
 I used bootstrap and fontawesome for the layout and wikipedia for the content.
