@@ -1,6 +1,6 @@
 ---
 title: Tribute page for Free Code Camp
-date: 2016-03-19 12:17:18 -05:00
+date: 2016-03-19 12:17:00 -05:00
 tags:
 - bootstrap
 - css
@@ -9,7 +9,6 @@ tags:
 - html
 - sxsw
 - tribute
-- Twitter Bootstrap
 layout: post
 ---
 
