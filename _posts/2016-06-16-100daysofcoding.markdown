@@ -1,6 +1,8 @@
 ---
 title: 100 days of coding
 date: 2016-06-16 20:32:00 Z
+tags:
+- 100daysofcoding
 ---
 
 Day 1:  
