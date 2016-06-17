@@ -5,7 +5,7 @@ tags:
 - 100daysofcoding
 ---
 
-**Day 1:**\
-Installed Ruby but couldn't **gem install jekyll**. \
-Sacrificed virgin goat to Yukihiro Matsumoto. \
+**Day 1:**
+Installed Ruby but couldn't **gem install jekyll**.
+Sacrificed virgin goat to Yukihiro Matsumoto.
 Gave up on jekyll and cried myself to sleep.
