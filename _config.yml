@@ -12,10 +12,10 @@ permalink: pretty
 tagline: Front End Developer for hire
 url: guillermohernandez.github.io
 paginate: 1
-baseurl: ''
+baseurl: 
 sass:
   sass_dir: _sass
-  style: :compressed
+  style: compressed
 author:
   name: Guillermo Hernandez
   url: http://memohernandez.com
