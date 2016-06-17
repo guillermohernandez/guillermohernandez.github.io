@@ -1,12 +1,6 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+---
 title: Your awesome title
+<<<<<<< HEAD
 email: guillermohernandez@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -18,4 +12,21 @@ twitter_username: memohernandezjr
 github_username:  guillermohernandez
 
 # Build settings
+=======
+timezone: America/Chicago
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: guillermohernandez@gmail.com
+description: |
+  Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+baseurl: 
+url: http://yourdomain.com
+twitter_username: memohernandezjr
+github_username: guillermohernandez
+>>>>>>> afc79a5c1810660b4d15d4d3ad20ecafc4933109
 markdown: kramdown
