@@ -1,6 +1,6 @@
 ---
 title: "Blog Posts"
-layout: single
+layout: archive
 excerpt: "Blog"
 sitemap: false
 permalink: /posts/
