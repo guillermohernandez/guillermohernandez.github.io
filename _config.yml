@@ -32,7 +32,7 @@ bing_site_verification:
 alexa_site_verification: 
 yandex_site_verification: 
 twitter:
-  username: 
+  username: memohernandezjr
 facebook:
   username: 
   app_id: 
@@ -49,30 +49,30 @@ analytics:
 google_ad_client: 
 google_ad_slot: 
 author:
-  name: Your Name
+  name: Guillermo Hernandez Jr
   avatar: bio-photo.jpg
   bio: I am an amazing person.
-  location: Somewhere
-  email: 
+  location: Austin, TX
+  email: guillermohernandez@gmail.com
   uri: 
   bitbucket: 
-  codepen: 
+  codepen: guillermohernandez
   dribbble: 
   flickr: 
   facebook: 
   foursquare: 
-  github: 
+  github: guillermohernandez
   google_plus: 
   keybase: 
   instagram: 
   lastfm: 
-  linkedin: 
+  linkedin: guillermohernandezjr
   pinterest: 
   soundcloud: 
   stackoverflow: 
   steam: 
   tumblr: 
-  twitter: 
+  twitter: MemoHernandezJr
   vine: 
   weibo: 
   xing: 
@@ -149,3 +149,26 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+include: ["_pages"]
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: true
+      related: true
