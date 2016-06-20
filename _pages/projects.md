@@ -4,7 +4,6 @@ layout: archive
 excerpt: "What I'm working on"
 sitemap: false
 permalink: /projects/
-author_profile: false
 ---
 
 {% include base_path %}
