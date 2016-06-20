@@ -3,7 +3,7 @@ title: "About"
 layout: single
 excerpt: "About Guillermo Hernandez Jr"
 sitemap: false
-permalink: /about.html
+permalink: /about/
 ---
 
 
