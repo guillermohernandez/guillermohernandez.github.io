@@ -9,24 +9,22 @@ collections:
     title: Uploads
     output: true
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: true
-      related: true
-      # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: splash
-      author_profile: false
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: single
+    author_profile: false
+    read_time: false
+    comments: false
+    share: true
+    related: true
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: splash
+    author_profile: false
 locale: en-US
 title_separator: "-"
 name: Guillermo Hernandez Jr
