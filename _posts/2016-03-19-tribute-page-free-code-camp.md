@@ -9,7 +9,6 @@ tags:
 - html
 - sxsw
 - tribute
-layout: post
 ---
 
 It&#8217;s been a while since I&#8217;ve completed a side project, so this afternoon in the middle of the SXSW madness, I finished one of the new challenges for Free Code Camp.
