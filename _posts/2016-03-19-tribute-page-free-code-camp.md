@@ -1,6 +1,6 @@
 ---
 title: Tribute page for Free Code Camp
-date: 2016-03-19 12:17:00 -05:00
+date: 2016-03-19 17:17:00 Z
 tags:
 - bootstrap
 - css
