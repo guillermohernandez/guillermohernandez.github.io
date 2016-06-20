@@ -8,6 +8,17 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: single
+    author_profile: false
+    read_time: false
+    comments: false
+    share: true
+    related: true
 locale: en-US
 title_separator: "-"
 name: Guillermo Hernandez Jr
@@ -78,7 +89,6 @@ author:
   xing: 
   youtube: 
 include:
-- ".htaccess"
 - _pages
 exclude:
 - "*.sublime-project"
@@ -149,26 +159,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-include: ["_pages"]
-
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: true
-      related: true
