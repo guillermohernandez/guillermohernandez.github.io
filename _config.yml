@@ -37,7 +37,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "MemoHernandezJr"
 facebook:
   username               :
   app_id                 :
@@ -67,7 +67,7 @@ author:
   avatar           : "bio-photo.jpg"
   bio              : "4th grade spelling bee champion"
   location         : "Austin, TX"
-  email            :
+  email            :  
   uri              :
   bitbucket        :
   codepen          :
@@ -75,7 +75,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "guillermohernandez"
   google_plus      :
   keybase          :
   instagram        :
