@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: single
+layout: splash
 excerpt: "About Guillermo Hernandez Jr"
 sitemap: false
 permalink: /about/
