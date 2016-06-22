@@ -5,7 +5,7 @@ excerpt: "Contact Guillermo Hernandez Jr"
 sitemap: false
 permalink: /contact/
 header:
-  overlay_color: "#000"
+  overlay_color: "#eb9765"
   overlay_filter: "0.5"
   overlay_image: unsplash-image-1.jpg
 ---
