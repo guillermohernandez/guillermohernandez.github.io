@@ -1,7 +1,6 @@
 ---
-title: "Contact"
+title: "Contact Me"
 layout: splash
-excerpt: "Contact Guillermo Hernandez Jr"
 sitemap: false
 permalink: /contact/
 header:
