@@ -1,13 +1,10 @@
 ---
-title: "About"
+title: "About Me"
 layout: splash
-excerpt: "About Guillermo Hernandez Jr"
 sitemap: false
 permalink: /about/
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: unsplash-image-1.jpg
+  overlay_color: "#EB9765"
 ---
 
 

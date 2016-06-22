@@ -4,7 +4,7 @@ layout: splash
 sitemap: false
 permalink: /contact/
 header:
-  overlay_color: "#eb9765"
+  overlay_color: "#EB9765"
 ---
 <form id="contactform" method="POST">
     <input type="text" name="name" placeholder="Your name">
