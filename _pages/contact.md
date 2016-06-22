@@ -1,9 +1,10 @@
 ---
-title: "Contact"
-layout: single
-excerpt: "Contact Guillermo Hernandez Jr"
+title: "Contact Me"
+layout: splash
 sitemap: false
 permalink: /contact/
+header:
+  overlay_color: "#eb9765"
 ---
 <form id="contactform" method="POST">
     <input type="text" name="name" placeholder="Your name">
