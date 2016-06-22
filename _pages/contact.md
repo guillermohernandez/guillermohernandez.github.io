@@ -6,8 +6,6 @@ sitemap: false
 permalink: /contact/
 header:
   overlay_color: "#eb9765"
-  overlay_filter: "0.5"
-  overlay_image: unsplash-image-1.jpg
 ---
 <form id="contactform" method="POST">
     <input type="text" name="name" placeholder="Your name">
