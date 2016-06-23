@@ -3,9 +3,11 @@ Portfolio
 
 ## Todo
 
-- [ ] Create Demo
+- [x] Create Demo
+- [ ] Add Projects
 
 ## Demo
+http://guillermohernandez.github.io
 
 ## Contact
 #### Guillermo Hernandez Jr
