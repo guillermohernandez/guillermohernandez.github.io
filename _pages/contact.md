@@ -1,5 +1,5 @@
 ---
-title: "Contact Me"
+title: "CONTACT ME"
 layout: splash
 sitemap: false
 permalink: /contact/
