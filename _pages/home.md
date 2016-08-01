@@ -1,8 +1,9 @@
 ---
-title: "Splash Page"
+title: "Austin TX Full Stack Developer"
 layout: splash
-permalink: /splash-page/
+permalink: /
 date: 2016-03-23T11:48:41-04:00
+author_profile: false
 header:
   overlay_color: "#EB9765"
 excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
