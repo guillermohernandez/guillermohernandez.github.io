@@ -11,7 +11,7 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 body{
   //  font-family: 'Lora', serif;
   font-family: 'Nunito', sans-serif;
-  line-height: 1.2;
+  line-height: 1.5;
   width: 100%;
   height: 100%;
   // margin-top: 50px;
@@ -21,6 +21,10 @@ html {
     width: 100%;
     height: 100%;
 }
+// .container-fluid{
+//   padding-left: 0px;
+//   padding-right: 0px;
+// }
 
 .navbar{
   margin-bottom: 0px;
@@ -43,11 +47,22 @@ html {
   padding: 100px 0;    
   width: 100%;
   margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.page-content{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  background-color: #f5fbf9;
+  padding: 100px 0;
+  // width: 100%;
+  margin-top: 0px;
 }
 
 
+
 .footer {
-    margin-top: 3em;
+    // margin-top: 3em;
     color: #9ba1a6;
     background-color: #4c4c4c;
     border-top: 1px solid #bdc1c4;
