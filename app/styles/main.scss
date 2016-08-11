@@ -1,7 +1,9 @@
 $icon-font-path: '../fonts/';
+$fa-font-path: "/bower_components/font-awesome/fonts";
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 
 @import 'https://fonts.googleapis.com/css?family=Lora|Nunito:400,700';
@@ -61,7 +63,7 @@ color: #EB9765;
 }
 
 .social-nav a:hover {
-opacity: 0.6;
+    opacity: 0.6;
     -webkit-transition: opacity 1s ease;
     -moz-transition: opacity 1s ease;
     -o-transition: opacity 1s ease;

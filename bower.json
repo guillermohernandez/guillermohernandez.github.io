@@ -2,7 +2,8 @@
   "name": "jerkfolio",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "~3.3.5"
+    "bootstrap-sass": "~3.3.5",
+    "font-awesome": "fontawesome#^4.6.3"
   },
   "overrides": {
     "bootstrap-sass": {
