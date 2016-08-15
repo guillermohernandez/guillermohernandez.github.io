@@ -5,7 +5,6 @@ Portfolio
 
 - [ ] Create Demo
 - [ ] Add Projects
-- [ ] Add SEO: https://github.com/blog/2162-better-discoverability-for-github-pages-sites
 
 ## Demo
 http://guillermohernandez.github.io

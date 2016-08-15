@@ -1,9 +1,8 @@
-$icon-font-path: '../fonts/';
-$fa-font-path: "/bower_components/font-awesome/fonts";
-
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+$fa-font-path: "../bower_components/font-awesome/fonts";
 // bower:scss
-@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-@import "bower_components/font-awesome/scss/font-awesome.scss";
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "font-awesome/scss/font-awesome.scss";
 // endbower
 
 @import 'https://fonts.googleapis.com/css?family=Lora|Nunito:400,700';
@@ -58,8 +57,6 @@ html {
   // width: 100%;
   margin-top: 0px;
 }
-
-
 
 .footer {
     // margin-top: 3em;
