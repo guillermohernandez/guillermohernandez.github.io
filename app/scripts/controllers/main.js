@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name guillermohernandezgithubioApp.controller:MainCtrl
+ * @name jerkfolio.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the guillermohernandezgithubioApp
+ * Controller of the jerkfolio
  */
-angular.module('guillermohernandezgithubioApp')
+angular.module('jerkfolio')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

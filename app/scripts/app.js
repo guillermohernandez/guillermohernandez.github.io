@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name guillermohernandezgithubioApp
+ * @name jerkfolio
  * @description
- * # guillermohernandezgithubioApp
+ * # jerkfolio
  *
  * Main module of the application.
  */
 angular
-  .module('guillermohernandezgithubioApp', [
+  .module('jerkfolio', [
     'ngRoute'
   ])
   .config(function ($routeProvider) {

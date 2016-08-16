@@ -3,7 +3,7 @@
 describe('Controller: ContactCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('guillermohernandezgithubioApp'));
+  beforeEach(module('jerkfolio'));
 
   var ContactCtrl,
     scope;
