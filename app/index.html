@@ -31,6 +31,7 @@
   </head>
   <body ng-app="jerkfolio">
     <div class="container-fluid">
+      <div class="row">
       <div class="navbar navbar-default">
         <ul class="nav navbar-nav">
           <li><a href="#/">HOME</a></li>
@@ -39,7 +40,8 @@
           <li><a href="#/contact">CONTACT ME</a></li>
         </ul>
       </div>
-      <div ng-view=""></div>
+      
+      <div ng-view="" class="container-fluid"></div>
 
       <div class="footer">
         <div class="social-nav text-center">
@@ -49,6 +51,7 @@
           <a href="http://codepen.io/guillermohernandez/"><i class="fa fa-codepen fa-3x fa-fw" aria-hidden="true"></i></a>
           <p class="copyright text-muted">Copyright © Guillermo Hernandez Jr 2016</p>
         </div>
+      </div>
       </div>
     </div>
 
