@@ -1,0 +1,12 @@
+---
+import Base from "../layouts/Base.astro";
+import { site } from "../content/site";
+
+const title = `About — ${site.name}`;
+---
+
+<Base title={title} description={`About ${site.name}`} canonicalPath="/about">
+  <article class="prose">
+    <h1>About</h1>
+  </article>
+</Base>

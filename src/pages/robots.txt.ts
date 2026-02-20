@@ -1,13 +1,13 @@
 import type { APIRoute } from "astro";
 
-const getRobotsTxt = (sitemapURL: URL) => `\
-User-agent: *
+export const GET: APIRoute = () => {
+  const site = import.meta.env.SITE_URL;
+  const body = `User-agent: *
 Allow: /
 
-Sitemap: ${sitemapURL.href}
+Sitemap: ${site}/sitemap-index.xml
 `;
-
-export const GET: APIRoute = ({ site }) => {
-  const sitemapURL = new URL("sitemap-index.xml", site);
-  return new Response(getRobotsTxt(sitemapURL));
+  return new Response(body, {
+    headers: { "Content-Type": "text/plain; charset=utf-8" },
+  });
 };
