@@ -4,7 +4,6 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import SkipLink from "../components/SkipLink.astro";
 import { site } from "../content/site";
-import Cloudfare from "../components/Cloudfare.astro";
 
 import "../styles/global.css";
 
@@ -15,7 +14,7 @@ const {
   ogImage = site.seo.ogImage,
   robots = site.seo.robots,
   jsonLd,
-  mainCentered = false
+  mainCentered = false,
 } = Astro.props;
 const CF_TOKEN = "XXX";
 const canonical = new URL(canonicalPath, site.url).toString();
@@ -36,13 +35,15 @@ const canonical = new URL(canonicalPath, site.url).toString();
       robots={robots}
       jsonLd={jsonLd}
     />
-    <Cloudfare token={CF_TOKEN} />
   </head>
 
   <body class="page">
     <SkipLink />
     <Header />
-    <main id="main" class={`page__main ${mainCentered ? "page__main--centered" : ""}`}>
+    <main
+      id="main"
+      class={`page__main ${mainCentered ? "page__main--centered" : ""}`}
+    >
       <slot />
     </main>
     <Footer />
